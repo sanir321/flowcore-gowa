@@ -7,5 +7,19 @@ services:
     envVars:
       - key: PORT
         value: "3000"
-      - key: GOWA_API_KEY
+      - key: APP_PORT
+        value: "3000"
+      - key: APP_ACCOUNT_VALIDATION
+        value: "false"
+      - key: APP_AUTO_REPLY_MESSAGE
+        value: ""
+      - key: APP_BASIC_AUTH
         value: "flowcore:FlowCore@2026"
+      - key: APP_DEBUG
+        value: "false"
+      - key: APP_OS
+        value: "Chrome"
+      - key: WHATSAPP_WEBHOOK
+        value: "https://bnpdrelienfnlkceluip.supabase.co/functions/v1/gowa-webhook"
+      - key: WHATSAPP_WEBHOOK_SECRET
+        value: "flowcoresecret2026"
