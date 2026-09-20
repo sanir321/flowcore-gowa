@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: flowcore-gowa
+    env: docker
+    plan: free
+    region: oregon
+    envVars:
+      - key: PORT
+        value: "3000"
+      - key: GOWA_API_KEY
+        value: "flowcore:FlowCore@2026"
